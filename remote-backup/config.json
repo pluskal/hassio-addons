@@ -1,6 +1,6 @@
 {
   "name": "Remote Backup",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "slug": "remote_backup",
   "description": "Exploit snapshots and SCP to create remote backups to specified server",
   "url": "https://github.com/mr-bjerre/hassio-remote-backup",
@@ -15,7 +15,8 @@
     "ssh_user": "",
     "ssh_key": [],
     "remote_directory": "",
-    "zip_password": ""
+    "zip_password": "",
+    "keep_local_backup": ""
   },
   "schema": {
     "ssh_host": "str",
@@ -23,6 +24,7 @@
     "ssh_user": "str",
     "ssh_key": ["str"],
     "remote_directory": "str",
-    "zip_password": "str"
+    "zip_password": "str",
+    "keep_local_backup": "match(^(all|[+]?\\d?)$)"
   }
 }
