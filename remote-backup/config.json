@@ -14,13 +14,15 @@
     "ssh_port": 22,
     "ssh_user": "",
     "ssh_key": [],
-    "remote_directory": ""
+    "remote_directory": "",
+    "zip_password": ""
   },
   "schema": {
     "ssh_host": "str",
     "ssh_port": "int",
     "ssh_user": "str",
     "ssh_key": ["str"],
-    "remote_directory": "str"
+    "remote_directory": "str",
+    "zip_password": "str"
   }
 }
