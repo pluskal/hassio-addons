@@ -9,6 +9,7 @@
   "hassio_api": true,
   "hassio_role": "backup",
   "map": ["backup:rw"],
+  "arch": ["amd64", "armhf", "aarch", "i386"],
   "image": "fixated/remote-backup-{arch}",
   "options": {
     "ssh_host": "",
